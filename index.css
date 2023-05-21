@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 2px 0.5px rgba(0, 0, 0, 0.5);
+    padding:1rem 0;
+}
+header li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0 3rem;
+}
+header button{
+    padding: 0.3rem 0.5rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1{
+    font-size: 3rem;
+    color:red;
+}
+p{
+    text-align: justify;
+}
